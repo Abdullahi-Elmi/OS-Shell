@@ -1,0 +1,14 @@
+Mount disk 50 10
+Write f1.txt [Uno!]
+Read f1.txt var1
+print var1
+Write f2.txt [ThisIsASuperLongWordNoWordShouldBeThisLong]
+Read f2.txt var2
+print var2
+Write f1.txt [Overwritten "Uno!"]
+Read f1.txt var3
+print var3
+Write f3.txt [I'M FINALLY DONE!!!]
+Read f3.txt var4
+print var4
+quit
